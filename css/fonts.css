@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "gotham-light";
+	src: url("../fonts/gotham-light.eot");
+	src: url("../fonts/gotham-light.eot#iefix") format("embedded-opentype"),
+	url("../fonts/gotham-light.woff") format("woff"),
+	url("../fonts/gotham-light.ttf") format("truetype"),
+	url("../fonts/gotham-light.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "gotham-narrow-book";
+	src: url("../fonts/gotham-narrow-book.eot");
+	src: url("../fonts/gotham-narrow-book.eot#iefix") format("embedded-opentype"),
+	url("../fonts/gotham-narrow-book.woff") format("woff"),
+	url("../fonts/gotham-narrow-book.ttf") format("truetype"),
+	url("../fonts/gotham-narrow-book.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "gotham-narrow-medium";
+	src: url("../fonts/gotham-narrow-medium.eot");
+	src: url("../fonts/gotham-narrow-medium.eot#iefix") format("embedded-opentype"),
+	url("../fonts/gotham-narrow-medium.woff") format("woff"),
+	url("../fonts/gotham-narrow-medium.ttf") format("truetype"),
+	url("../fonts/gotham-narrow-medium.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "gotham-narrow-bold";
+	src: url("../fonts/gotham-narrow-bold.eot");
+	src: url("../fonts/gotham-narrow-bold.eot#iefix") format("embedded-opentype"),
+	url("../fonts/gotham-narrow-bold.woff") format("woff"),
+	url("../fonts/gotham-narrow-bold.ttf") format("truetype"),
+	url("../fonts/gotham-narrow-bold.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "parkinson-roman";
+	src: url("../fonts/parkinson-roman.eot");
+	src: url("../fonts/parkinson-roman.eot#iefix") format("embedded-opentype"),
+	url("../fonts/parkinson-roman.woff") format("woff"),
+	url("../fonts/parkinson-roman.ttf") format("truetype"),
+	url("../fonts/parkinson-roman.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "parkinson-medium";
+	src: url("../fonts/parkinson-medium.eot");
+	src: url("../fonts/parkinson-medium.eot#iefix") format("embedded-opentype"),
+	url("../fonts/parkinson-medium.woff") format("woff"),
+	url("../fonts/parkinson-medium.ttf") format("truetype"),
+	url("../fonts/parkinson-medium.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "parkinson-black";
+	src: url("../fonts/parkinson-black.eot");
+	src: url("../fonts/parkinson-black.eot#iefix") format("embedded-opentype"),
+	url("../fonts/parkinson-black.woff") format("woff"),
+	url("../fonts/parkinson-black.ttf") format("truetype"),
+	url("../fonts/parkinson-black.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "tungsten-semibold";
+	src: url("../fonts/tungsten-semibold.eot");
+	src: url("../fonts/tungsten-semibold.eot#iefix") format("embedded-opentype"),
+	url("../fonts/tungsten-semibold.woff") format("woff"),
+	url("../fonts/tungsten-semibold.ttf") format("truetype"),
+	url("../fonts/tungsten-semibold.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "freight-text-pro";
+	src: url("../fonts/freight-text-pro.eot");
+	src: url("../fonts/freight-text-pro.eot#iefix") format("embedded-opentype"),
+	url("../fonts/freight-text-pro.woff") format("woff"),
+	url("../fonts/freight-text-pro.ttf") format("truetype"),
+	url("../fonts/freight-text-pro.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}

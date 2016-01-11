@@ -1,0 +1,1289 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (min-width: 768px) {
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > span:hover,
+	.navbar-default .navbar-nav > li > a:focus,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus,
+	.navbar-default .navbar-nav > li.aktif > a,
+	.navbar-default .navbar-nav > li.aktif > span {
+	  color: #fff;
+	  background-color: #be1e1e;
+	}
+	.megamenu .submenu li > a {
+		text-align: right;
+	}
+	.megamenu .submenu li > a.selected {
+		background: #ddd;
+		color: #be1e1e;
+	}
+	.megamenu > li,
+	.megamenu > div {
+		padding: 20px 15px;
+		background: #fff;
+	}
+	.megamenu > li > .features.blog {
+		margin-left: -15px;
+	}
+	.megamenu > li > .features {
+		padding: 0;
+	}
+	.megamenu > li > .features li {
+		box-sizing: border-box;
+	    float: left;
+	    height: 100%;
+	    position: relative;
+	    text-align: left;
+	}
+	.megamenu > li > .features li a {
+		display: block;
+	}
+	.megamenu > li > .features li h2 {
+		font-size: 19px;
+		margin: 0 0 10px;
+	}
+	.megamenu > li > .features li.nav_col {
+		margin-right: 15px;
+	    padding: 0 15px;
+	    position: relative;
+	    width: 20.2899%;
+	}
+	.megamenu > li > .features.blog li.nav_col {
+		width: 27.45%;
+		padding: 0 15px;
+	}
+	.megamenu > li.photos > .features li.col_one {
+		width: 17.25%;
+	}
+	.megamenu > li.photos > .features li.col_two {
+		width: 23.75%;
+	}
+	.megamenu > li > .features li.nav_col .col_content {
+		min-height: 275px;
+		position: relative;
+	}
+	.megamenu > li > .features.blog li.nav_col .col_content {
+		margin-top: 40px;
+	}
+	.megamenu > li.photos > .features li.col_four {
+		padding-left: 0;
+	}
+	.megamenu > li > .features li.nav_col .col_content .parkinson-black {
+		font-size: 13px;
+		margin: 10px 0;
+	}
+	.megamenu > li > .features li.nav_col .col_content:before {
+		background: #878787;
+	    content: "";
+	    display: block;
+	    height: 100%;
+	    position: absolute;
+	    right: -23px;
+	    top: 0;
+	    width: 1px;
+	}
+	.megamenu > li > .features li.nav_col.col_one .col_content:before {
+		background: none;
+	}
+	.megamenu > li > .features li.col_one {
+		padding: 0;
+	}
+	.megamenu > li > .features li .author {
+		font-size: 13px;
+		margin: 0;
+	}
+	.megamenu > li > .features li h3.title {
+		font-size: 14px;
+		margin: 10px 0 5px;
+	}
+	.megamenu > li > .features li.col_two,
+	.megamenu > li > .features li.col_four.lists {
+		margin-top: 33px;
+	}
+	.megamenu > li > .features li.col_five {
+		margin-top: 34px;
+	    padding: 0 0 0 15px;
+	    position: relative;
+	    width: 10%;
+	}
+	.megamenu > li > .features li.col_five a {
+		margin: 0 0 7px;
+	}
+	.megamenu > li > .features.blog .list li {
+		position: relative;
+		top: -52px;
+	}
+	.megamenu > li > .features.blog .profile {
+		border-bottom: 1px solid #b9b9b9;
+	}
+	.megamenu > li > .features.blog .profile h3 {
+		position: absolute;
+		bottom: 20px;
+		left: 0;
+		width: 40%;
+		font-size: 14px;
+		font-family: "parkinson-medium", Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+	}
+	.megamenu > li > .features.blog .profile img {
+		width: 70%;
+		height: auto;
+		margin-left: 30%;
+	}
+	.nav_col .list.square li:before {
+		top: 2px;
+		background: #be1e1e;
+	}
+	.nav_col .list li {
+		padding: 0;
+		margin: 0 0 15px;
+		line-height: 1.25;
+		float: none !important;
+	}
+	.nav_col .list time {
+		font-size: 10px;
+	}
+	.nav_col .list.square li h3 {
+		margin: -7px 0 0;
+		font-size: 12px;
+	}
+	.nav_col .reviews a {
+		margin: 0 0 18px;
+	}
+	.nav_col .reviews h3,
+	.nav_col .reviews h4,
+	.nav_col .reviews .rating_stars {
+		margin: 0;
+	}
+	.nav_col .reviews h3 {
+		font-size: 15px;
+	}
+	.nav_col .reviews h4 {
+		font-size: 12px;
+		font-weight: 700;
+	}
+	.nav_col .more {
+		position: absolute;
+		bottom: -4px;
+		width: 110%;
+		text-transform: uppercase;
+		margin: 0 !important;
+	}
+	.menu-large {
+	  position: static !important;
+	}
+	.ad-container img,
+	.ad-container iframe {
+		width: 728px;
+	}
+		
+	/*HEADER*/
+	#header .top {
+		display: block;
+	}
+	header #header-promo {
+		bottom: 0;
+		position: absolute;
+		top: 0;
+		width: 200px;
+		z-index: 2;
+	}
+	header #header-promo a {
+		width: 100%;
+		height: 100%;
+		display: table;
+	}
+	header #header-promo a strong {
+		text-transform: uppercase;
+		display: block;
+		margin: 2px 0 0;
+		font-weight: normal;
+	}
+	header #header-promo img {
+		position: absolute;
+		top: 10px;
+		width: 93px;
+	}
+	header #header-promo a figcaption {
+		display: table-cell;
+		vertical-align: middle;
+		width: 100px;
+		font-size: 12px;
+	}
+	#logo,
+	#logo img {
+		width: 403px;
+		height: 86px;
+	}
+	#logo {
+		padding: 7px 0 0;
+		margin: 0 auto 15px;
+	}
+	header .social-links,
+	header .cta {
+		position: absolute;
+		right: 10px;
+	}
+	header .cta {
+		top: 15px;
+		text-transform: uppercase;
+	}
+	header .cta li {
+		padding: 0 0 0 10px;
+	}
+	header .social-links {
+		top: 50px;
+	}
+	header .cta li,
+	header .social-links li {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	header .social-links li:last-child,
+	header #header-promo img,
+	.featured_artist_abjad .artist_letter,
+	#headline .small .list.square li.mini_headline:before,
+	.nav_col .reviews .img_container,
+	.nav > li > a.toggle {
+		display: none;
+	}
+	.navbar-brand {
+		width: 0px;
+		height: 0px;
+		top: 15px;
+	}
+	#headline .big,
+	.left,
+	.center {
+		float: left;
+	}
+	#headline .big {
+		width: calc(100% - 325px);
+		padding: 0 0 0 10px;
+	}
+	#headline .big .text-box {
+		left: 10px;
+	}
+	#headline .text-box h1 {
+		font-size: 36px;
+	}
+	#headline .small {
+		width: 325px;
+		padding-left: 15px;
+		padding-right: 10px;
+	}
+	#headline .small .text-box h2 {
+		font-size: 22px;
+		line-height: 28px;
+		margin: 6px 0 7px;
+	}
+	#headline .small .text-box h3 {
+		font-size: 13px;
+	}
+	#headline .small .text-box h4 {
+		font-size: 15px;
+		margin: 7px 0 10px;
+	}
+	#headline .small .list.square li.mini_headline {
+		margin: -13px 0 0 -20px;
+	}
+	.headpage {
+		float: right;
+		width: 79.6135%;
+	}
+	.headpage .text-box h2 {
+		width: 62.963%;
+		font-size: 33px;
+		padding: 0 0 0 25px;
+	}
+	.headpage.full .text-box h2 {
+		font-size: 38px;
+	}
+	.headline_lists .text-box h3 {
+		font-size: 36px;
+		line-height: 1.25;
+	}
+	.pick_list li {
+		margin: 0 0 40px;
+		padding: 0;
+		border: none;
+	}
+	.pick_list li .text-box h2 {
+		font-size: 21px;
+	}
+	.interviews .single-interview:hover .interview-content-wrapper,
+	.interviews .single-interview .interview-name,
+	.list li:hover .share,
+	#slide:hover .share,
+	.column li:hover .share {
+		opacity: 1;
+	}
+	.lists .list li .img_container {
+		width: 41.6667%;
+		margin: 0;
+	}
+	.lists .list li .text-box {
+		float: left;
+	    padding: 0 0 0 15px;
+	    width: 56.25%;
+	}
+	.list .text-box h3,
+	.list h3,
+	.event .list .text-box {
+		font-size: 14px;
+	}
+	.list .text-box h4 {
+		margin: 0 0 2px;
+	}
+	.lists .text-box h3,
+	.lists .column li h3 {
+		font-size: 22px;
+	}
+	.lists.music .text-box h3 {
+		font-size: 30px;
+	}
+	.most .list .text-box {
+		font-size: 15px;
+	}
+	.list li {
+		padding: 15px 0;
+	}
+	.list.col li,
+	.list .text-box h4 {
+		font-size: 12px;
+	}
+	.list.col .img_container {
+		width: 82px;
+		height: 82px;
+	}
+	.most {
+		border-bottom: 1px solid #000;
+	}
+	.most ul {
+		margin: 15px 0 0;
+	}
+	.most li {
+		border: none;
+		padding: 0 0 15px;
+	}
+	.left,
+	.center {
+		margin-right: 15px;
+	}
+	.two_col .left {
+		width: calc(100% - 315px);
+	}
+	.detail .two_col .left,
+	.columns.two_col .left {
+		width: calc(100% - 350px);
+	}
+	.three_col .left {
+		width: calc(20.2899% - 15px);
+	}
+	#content .left {
+		min-height: 450px;
+	}
+	.center {
+		width: calc(100% - 20.2899% - 315px);
+	}
+	.right {
+		float: right;
+		width: 300px;
+	}
+	.morphsearch {
+		width:25px;
+		position: absolute;
+		z-index: 10000;
+		top: 6px;
+		right: 10px;
+		margin: 0;
+	}
+	.morphsearch.open .morphsearch-content {
+		overflow: hidden;
+	}
+	.is_stuck .morphsearch {
+		min-height: 42px;
+	}
+	.is_stuck .morphsearch-form {
+		height: 42px;
+	}
+	footer .center {
+		margin: 0 0 0 15px;
+	}
+	.foot_top {
+		padding: 50px 0;
+	}
+	.featured .column li .text-box {
+		font-size: 17px;
+		line-height: 1.3;
+	}
+	.landing .artist_search {
+		top: 20px;
+	}
+	.artist_search {
+		position: absolute;
+		top: 12px;
+		right: 0;
+		margin: 0;
+	}
+	.artist_search .search .query {
+		width: 193px;
+	}
+	.artist_abjad {
+		height: 220px;
+	}
+	.artist_abjad.col-sm-5 {
+		width: 44%;
+	}
+	.artist_abjad.col-sm-offset-2 {
+		margin-left: 12%;
+	}
+	
+	/*INTERVIEWS*/
+	.interviews {
+		transform: translate3d(0px, 0px, 0px);
+	}
+	.interviews .single-interview .interview-name {
+		transition: opacity 300ms ease-out 300ms, min-width 250ms ease-out 100ms;
+		height: 130px;
+	}
+	.interviews .single-interview .interview-content-wrapper {
+		transition: opacity 200ms ease-in 0s;
+		/*width: 230px;
+		width: 70%;*/
+	}
+	.interviews .single-interview .interview-img {
+		float: right;
+	}
+	.interviews .single-interview:hover .interview-name {
+		transition: opacity 300ms ease-out 0s, min-width 300ms ease-out 0s;
+		min-width: 160px;
+	}
+	.interviews .single-interview:hover .interview-content-wrapper {
+		transition: opacity 200ms ease-out 250ms;
+	}
+	.interviews .single-interview .interview-content-wrapper,
+	.interviews .single-interview:hover .interview-name {
+		opacity: 0;
+	}
+	.rank {
+		padding: 5px 10px;
+		width: 45px;
+	}
+	.featured .col-sm-2 {
+		width: 20%;
+	}
+	
+	/*DETAIL*/
+	.article_head .article_title {
+		font-size: 40px;
+		margin-top: 30px;
+	}
+	.article_content img {
+		max-width: 100%;
+	}
+	.gallery_head .article_title {
+		font-size: 30px;
+		margin-bottom: 0.37em
+	}
+	.gallery_head nav {
+		border-left: 1px solid #000;
+		float: right;
+		padding: 0 0 0 20px;
+	}
+	.gallery_lead .modal .image_info {
+		position: absolute;
+		margin: 0;
+		left: 50px;
+		bottom: 87px;
+		width: 50%;
+		font-size: 17px;
+	}
+	.modal-body .continue_read {
+		bottom: 55px;
+		left: 50px;
+		position: absolute;
+		padding: 0;
+	}
+	
+	/*FOOTER*/
+	.footer-links {
+		margin: 7px 0;
+	}
+	.footer-links.country {
+    	border-left: 1px solid #878787;
+		padding: 0 0 0 15px;
+	}
+	
+}
+
+@media (min-width: 801px) {
+	.megamenu > li > .features li.col_five {
+		width: 11.7874%;
+	}
+	#headline {
+		float: right;
+		width: 83%;
+	}
+	#headline .big {
+		padding: 0;
+	}
+	#headline .big .text-box {
+		left: 0;
+	}
+	#content .left {
+		margin-top: 0 !important;
+	}
+	.lists .list li .text-box p {
+		display: block;
+	}
+}
+
+@media (min-width: 992px) {
+	.nav_col .list.square li:before {
+		top: 4px;
+	}
+	.nav_col .list.square li h3 {
+		font-size: 14px;
+	}
+	.nav_col .list time {
+		font-size: 12px;
+	}
+	.nav_col .reviews .img_container {
+		width: 45px;
+		height: 45px;
+		float: left;
+		display: block;
+	}
+	.nav_col .reviews h3,
+	.nav_col .reviews h4,
+	.nav_col .reviews .rating_stars {
+		width: calc(100% - 55px);
+		float: right;
+	}
+	#headline {
+		width: 80.6135%;
+	}
+	header #header-promo img,
+	.latest .list .img_container,
+	.featured_artist_abjad .artist_letter {
+		display: block;
+	}
+	.pick_list li.fourth .img_container {
+		width: 58.8235%;
+	}
+	.pick_list li.fourth .text-box h3,
+	.guide_nav .arrow_nav,
+	.page_head .artist_letter {
+		display: none;
+	}
+	.featured_artist_abjad {
+		border-top: 2px solid #000;
+		padding: 25px 0 0;
+	}
+	.featured_artist_abjad .img_container {
+		width: 27.0833%;
+	}
+	.featured_artist_content {
+		width: 55%;
+	}
+	header #header-promo a figcaption {
+		text-align: right;
+	}
+	header #header-promo {
+		left: 20px;
+	}
+	header .social-links li:last-child {
+		display: inline-block;
+	}
+	footer .left .cell {
+	width: 164px;
+	}
+	footer .center {
+		margin: 0 15px 0 0;
+	}
+	.detail .two_col .left {
+		width: calc(100% - 350px);
+	}
+	.article_content {
+		padding: 0 0 0 70px;
+	}
+	.list_container .article_head .article_content,
+	.event .article_content {
+		padding-left: 0;
+	}
+	.social_icons.social_stick,
+	.list_item .social_icons,
+	.gallery_lead .social_icons,
+	.related_article .image_holder {
+		display: block;
+	}
+	.follow.horizontal li a span {
+		display: inline-block;
+	}
+	.follow.horizontal li a:before {
+		margin-right: 6px;
+	}
+	.abjad_nav {
+		padding: 7px 0;
+		width: 100%;
+		font-family: "gotham-narrow-book", Arial, Helvetica, sans-serif;
+	}
+	.abjad_wrap {
+		margin: 0;
+	}
+	.abjad_nav .artists_first {
+		display: block;
+		font-family: "gotham-narrow-bold", Arial, Helvetica, sans-serif;
+		margin: 6px 12px 4px 0;
+		padding: 0;
+		background: none;
+	}
+	.abjad_nav li {
+		display: block;
+		float: left;
+		background: url(../images/global-pipe.png) no-repeat right center;
+		padding: 0 7px 0 5px;
+		margin: 8px 0;
+		font-size: 14px;
+	}
+	.guide_nav {
+		border-bottom-width: 2px;
+	}
+	.page_head .guide_nav {
+		float: left;
+		clear: none;
+	}
+	.page_head .guide_nav {
+		border: none;
+		margin: 0 0 30px 30px;
+	}
+	.lists.music .list li {
+		margin: 15px 0;
+	}
+	.lists.music .list {
+		padding: 5px 0 0;
+	}
+	.artists_list ul {
+		padding-left: 9.72222%;
+	}
+	.artists_list ul:first-child {
+		padding-left: 15.2778%;
+	}
+}
+
+@media (min-width: 660px) and (max-width: 767px) {
+	.left,
+	.right,
+	.list.col li,
+	.detail .right > div,
+	.detail .right > section,
+	.detail .right > iframe,
+	.columns .right > div,
+	.columns .right > section,
+	.columns .right > iframe,
+	.three_col > .center {
+		width: 50%;
+		float: left;
+	}
+	.right {
+		float: right;
+	}
+	.list.grey li {
+		padding: 10px;
+	}
+	.two_col .left,
+	.two_col .right,
+	footer .three_col .center {
+		width: 100%;
+		padding: 0;
+	}
+	.left,
+	.detail .right > div:nth-child(odd),
+	.detail .right > section:nth-child(odd),
+	.detail .right > iframe:nth-child(odd),
+	.columns .right > div:nth-child(odd),
+	.columns .right > section:nth-child(odd),
+	.columns .right > iframe:nth-child(odd) {
+		padding-right: 10px;
+	}
+	.right,
+	.detail .right > div:nth-child(even),
+	.detail .right > section:nth-child(even),
+	.detail .right > iframe:nth-child(even),
+	.columns .right > div:nth-child(even),
+	.columns .right > section:nth-child(even),
+	.columns .right > iframe:nth-child(even),
+	.three_col > .center {
+		padding-left: 10px;
+	}
+	#content .three_col > .center {
+		padding-left: 0;
+		padding-right: 10px;
+	}
+	.pick_list li .text-box h2 {
+		font-size: 15px;
+	}
+	.pick_list li .text-box h3 {
+		display: none;
+	}
+	.pick_list .pick_label {
+		font-size: 13px;
+	}
+	/*.pick_list .box.box_16_9:after {
+		padding-top: 100%;
+	}*/
+	.solid-wall {
+		font-size: 24px;
+		margin: 0 0 14px;
+	}
+	.right .column.col li,
+	.right .channel .column > li {
+		height: 175px;
+	}
+	.right .reviews .column > li {
+		height: 240px;
+	}
+	.pick_list li .img_container {
+		float: none !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.is_stuck .navbar-nav > li > a,
+	.is_stuck .navbar-nav > li > span {
+		font-size: 13px;
+		padding: 17px 6px;
+	}
+	footer .cell .tagline {
+		font-size: 24px;
+	}
+	.lists .text-box h3,
+	.lists .column li h3,
+	.lists.music .text-box h3 {
+		font-size: 20px;
+	}
+	.lists .column.col > li {
+		height: 270px;
+		margin-bottom: 5px;
+		overflow: hidden;
+	}
+	.three_col .left {
+		width: calc(18% - 15px);
+	}
+	.center {
+		width: calc(100% - 18% - 315px);
+	}
+	.headpage {
+		width: 82%;
+	}
+	.breaking .title_box {
+		font-size: 18px;
+	}
+	.artist_abjad .column li.col-sm-4 {
+		width: 100%;
+	}
+}
+@media (max-width: 767px) {
+	.morphsearch.open .morphsearch-input {
+		font-size: 2em;
+	}
+	.morphsearch.open .morphsearch-submit {
+		-webkit-transform: translate3d(20px,-50%,0) scale3d(0.5,0.5,1);
+		transform: translate3d(20px,-50%,0) scale3d(0.5,0.5,1);
+	}
+	#search_result .morphsearch.open .morphsearch-form {
+		height: 70px;
+	}
+	.morphsearch.open .morphsearch-form {
+		margin: 0 0 0 5px;
+		width: 85%;
+	}
+	#content {
+		padding: 64px 0 0;
+	}
+	.navbar-nav > li > a,
+	.navbar-nav > li > span {
+		border-bottom: 1px dotted #aaa;
+	}
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus,
+	#headline .label {
+		color: #be1e1e;
+	}
+	.nav > li > a.toggle.full {
+		width: 100%;
+	}
+	.featured .img_container {
+		width: 28.2051%;
+		height: 28.2051%;
+		float: left;
+		margin: 0 10px 0 0;
+	}
+	.pick_list .text-box,
+	.ad-label,
+	#headline .label .interior {
+		background: none !important;
+	}
+	.side-collapse-container{
+		width:100%;
+		position:relative;
+		right:0;
+		transition: all 0.4s ease 0s;
+	}
+	.side-collapse-container.out{
+		right:320px;
+	}
+	.side-collapse {
+		top:54px;
+		bottom:0;
+		right:0;
+		width:320px;
+		position:fixed;
+		overflow: scroll;
+		overflow-x: hidden;
+		z-index: 2;
+		opacity: 1;
+		background: #f1f1f1;
+		transition: all 0.4s ease 0s;
+	}
+	.side-collapse.in {
+		margin-right: -320px;
+	}
+	.is_stuck .navbar-nav > li > a {
+		padding: 10px;
+	}
+	#navbar,
+	.ad-label,
+	#headline .label .interior span {
+		border: none;
+	}
+	.navbar {
+		border-bottom: 4px solid #000;
+		z-index: 5;
+	}
+	.is_stuck .navbar-brand.photos {
+		width: 210px;
+		top: 0;
+	}
+	.navbar-nav {
+		text-align: left;
+		margin: 10px 0;
+	}
+	.nav_open .navbar-toggle .icon-bar:first-child {
+		-webkit-transform: rotate(225deg);
+  		-moz-transform: rotate(225deg);
+		top: 6px;
+	}
+	.nav_open .navbar-toggle .icon-bar:nth-child(2) {
+		opacity: 0;
+	}
+	.nav_open .navbar-toggle .icon-bar:last-child {
+		-webkit-transform: rotate(-225deg);
+  		-moz-transform: rotate(-225deg);
+		top: -6px;
+	}
+	.navbar_stuck {
+		position: fixed;
+		width: 100%;
+	}
+	.nav_open .navbar,
+	.modal-open .navbar {
+		top: 0 !important;
+	}
+	.megamenu {
+		box-shadow: none;
+		max-height: 400px;
+		opacity: 1;
+		position: relative;
+		float: none;
+		display: none;
+	}
+	.megamenu .submenu,
+	.kanal .pick_list li .text-box,
+	.headline_lists .text-box {
+		padding: 0;
+	}
+	.megamenu .submenu li > a {
+		padding: 8px 10px 8px 15px;
+	}
+	.megamenu .content,
+	#headline .small .list.square li.mini_headline .box,
+	#headline .small .list.square li.mini_headline .text-box h3,
+	#headline .small .list.square li.mini_headline .text-box h4,
+	footer .right,
+	#menu_overlay,
+	.timeline .content p,
+	#headline .text-box p,
+	.kanal .pick_list li .text-box h3,
+	.kanal .solid-wall {
+		display: none;
+	}
+	#menu_overlay {
+		position: fixed;
+		top: 54px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 5;
+	}
+	.morphsearch.open {
+		top: 0;
+	}
+	.morphsearch-content .latest .list {
+		height: auto !important;
+	}
+	.nav_open {
+		overflow: hidden;
+	}
+	#headline .big .text-box {
+		padding: 0;
+		position: relative;
+		background: none;
+		color: #000;
+	}
+	#headline .big {
+		margin: 0 0 5px;
+	}
+	#headline .big a {
+		border-bottom: 1px solid #ccc;
+		padding: 0 0 20px;
+	}
+	#headline .list li:before {
+		background: #be1e1e;
+	}
+	#headline .text-box h1 {
+		line-height: 1.25;
+	}
+	#headline .text-box .title {
+		font-family: "gotham-narrow-medium", Arial, Helvetica, sans-serif;
+	}
+	#headline .small .text-box h2,
+	#headline .list,
+	.headpage .text-box h2,
+	.kanal .pick_list li .text-box h2,
+	.headline_lists .text-box h3 {
+		font-family: "gotham-narrow-bold", Arial, Helvetica, sans-serif;
+	}
+	#headline .text-box,
+	#headline .label,
+	.headpage .text-box,
+	.headline_lists .text-box,
+	#page_dot {
+		position: relative;
+		background: none;
+	}
+	.headpage .text-box h2,
+	.headline_lists .text-box h3 {
+		color: #000;
+	}
+	#headline a:hover .text-box h1,
+	#headline a:hover .text-box h2 {
+		color: #676767;
+	}
+	.col-xs-6:nth-child(2n+1) {
+		padding-right: 5px;
+	}
+	.col-xs-6:nth-child(2n+0) {
+		padding-left: 5px;
+	}
+	#headline .label .interior,
+	.headline_lists .text-box h3,
+	#slide .rating_stars,
+	#page_dot {
+		padding: 10px 0 0;
+	}
+	.headpage .text-box h2 {
+		margin-top: 10px;
+		border: none;
+		text-align: center;
+		padding: 0;
+		width: 100%;
+	}
+	#page_dot a {
+		border-color: #000;
+	}
+	.nav_open #menu_overlay,
+	.navbar-nav > li,
+	footer .left,
+	.footer-links li.copy,
+	.kanal .pick_list li a,
+	.kanal .pick_list li .img_container {
+		display: block;
+	}
+	footer .left,
+	footer .left .cell {
+		width: 100%;
+		padding: 10px 0 0;
+	}
+	footer .follow {
+		text-align: center;
+	}
+	.footer-links {
+		padding: 15px 0;
+		text-align: center;
+	}
+	.footer-links li {
+		padding: 5px 10px;
+	}
+	.footer-links.country {
+    	border-top: 1px solid #878787;
+		margin: 0 10px;
+	}
+	#headline .small .label {
+		text-align: left;
+	}
+	.article_head .article_title, .gallery_head .article_title {
+		font-size: 30px;
+	}
+	.headpage #slide .text-box h2 {
+		margin-bottom: 15px;
+	}
+	#carousel li {
+		width: 25%;
+	}
+	.right .column li h3,
+	#headline .small .text-box h2,
+	#headline .list {
+		font-size: 16px;
+		line-height: 1.25;
+	}
+	#headline .small .label .interior span {
+		font-size: 14px;
+	}
+	.channel .box:after {
+		padding-top: 56.25%;
+	}
+	.lists .column.col > li {
+		height: 285px;
+		margin-bottom: 5px;
+	}
+	.featured .img_container {
+		margin-right: 15px;
+	}
+	.featured .column li h3,
+	#headline .small .text-box h2 {
+		margin: 0;
+	}
+	.center.kanal {
+		width: 100%;
+		padding: 0 !important;
+	}
+	.kanal .pick_list,
+	.lists .list {
+		text-align: justify;
+	}
+	.kanal .pick_list li,
+	.lists .list li {
+		width: 48.5%;
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		border: none;
+	}
+	.kanal .pick_list li .img_container,
+	.kanal .pick_list li.ads,
+	.lists .list li .img_container {
+		width: 100% !important;
+		margin: 0 0 10px;
+		float: none;
+	}
+	.kanal .pick_list .pick_label {
+		font-size: 15px;
+	}
+	.kanal .pick_list li .text-box h2 {
+		font-size: 18px;
+	}
+	.lists .list li .img_container {
+		float: none;
+	}
+	.lists .text-box h3 {
+		margin-top: 5px;
+	}
+	/*TIMELINE*/
+	.artist_sticky_wrap.is_stuck {
+		top: 45px;
+	}
+	.timeline .block_left .feed {
+		padding-right: 10px;
+	}
+	.timeline .block_right .feed {
+		padding-left: 10px;
+	}
+	/*REVIEWS*/
+	.filter_nav {
+		position: initial;
+		border-top: 1px solid #000;
+		padding: 10px 0;
+	}
+	/*DETAIL*/
+	.article_head .article_title.artist_sticky_wrap {
+		padding: 15px 0;
+	}
+	.modal {
+		top: 54px !important;
+		padding: 4px 0 0;
+		box-sizing: content-box;
+	}
+	.box.box_hl::after {
+	    padding-top: 56.25%;
+	}
+	#headline .box_hl,
+	.pick_list li .img_container {
+		float: right;
+	    height: auto !important;
+	    margin: 0 0 0 15px;
+	    min-height: unset !important;
+	    width: 41% !important;
+	}
+	.left,
+	.center {
+		margin-top: 0 !important;
+	}
+}
+@media (max-width: 659px) {
+	.expand_less_5 li:nth-of-type(n+6):nth-last-of-type(n+2) {
+		display: none;
+	}
+	.pick_list li a,
+	.pick_list li .text-box,
+	.list li.more_less,
+	.home .pick_list li span.text-box,
+	.pick_list li .img_container {
+		display: block;
+	}
+	.home .pick_list li header.text-box h2,
+	.home .pick_list li header.text-box .pick_label {
+		display: none;
+	}
+	.pick_list li span.text-box {
+		margin: 0 0 10px;
+	}
+	.pick_list li .text-box {
+		padding: 0;
+	}
+	.pick_list li .text-box h2 {
+		font-size: 18px;
+	}
+	.pick_list li .text-box h3 {
+		font-size: 15px;
+		line-height: 1.42857;
+	}
+	.solid-wall {
+		margin: 20px -10px 15px;
+		font-size: 28px;
+	}
+	.right .reviews .column > li {
+		height: 350px;
+	}
+	.pick_list li.fourth .img_container {
+		width: 100% !important;
+		margin: 0 0 10px;
+		float: none;
+	}
+}
+@media (max-width: 480px) {
+	#headline .text-box h1 {
+		font-size: 18px;
+	}
+	#headline .small:last-child {
+		border: none;
+	}
+	.list.col li {
+		height: auto;
+	}
+	.list.grey li {
+		font-size: 16px;
+		padding: 10px;
+	}
+	.lists .column .datestamp,
+	.column li h3, .column.grey li h4 {
+		margin-top: 5px;
+	}
+	.newsletter .input-group {
+		width: 95%;
+	}
+	.most .list .img_container {
+		width: 100px;
+		height: 100px;
+		margin: 0 10px 0 0;
+	}
+	.title_page,
+	.page_head.landing .title_page,
+	.article_head .article_title, .gallery_head .article_title,
+	.headline_lists .text-box h3,
+	.featured_artist_abjad h3 {
+		font-size: 24px;
+	}
+	.related_article .image_holder {
+		display: none;
+	}
+	.right .column.col li,
+	.right .channel .column > li {
+		height: 195px;
+	}
+	.right .reviews .column > li {
+		height: 270px;
+	}
+	.lists .column.col > li {
+		height: 220px;
+		margin-bottom: 5px;
+	}
+	#carousel li {
+		width: 50%;
+	}
+	.featured .box:after {
+		padding-top: 100%;
+	}
+	.featured .column li h2 {
+		font-size: 20px;
+	}
+	.artist_abjad h2 {
+		font-size: 32px;
+	}
+	.headpage .text-box h2,
+	.headline_lists .text-box h3 {
+		font-size: 18px;
+	}
+	.artist_abjad .more {
+		margin-top: 16px;
+	}
+	.timeline .content.media,
+	.timeline .img_container {
+		width: 100%;
+		height: auto;
+	}
+	.timeline .box:after {
+		padding-top: 56.25%;
+	}
+	.artists_list ul {
+		width: 100%;
+		padding: 10px 0 0 20px;
+		margin: 0;
+	}
+	.artists_list ul:first-child {
+		border: none;
+	}
+	.artists_list ul:last-child {
+		padding: 0 0 20px 20px !important;
+	}
+	.contributor .img_container img {
+		width: 100%;
+		float: none;
+	}
+	.contributor .img_container h4 {
+		width: auto;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: 0;
+		padding: 5px 0;
+		font-size: 12px;
+		text-align: center;
+		background: #fff;
+	}
+}
